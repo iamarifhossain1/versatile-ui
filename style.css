@@ -99,7 +99,8 @@ nav ul a {
     border: none;
     border-radius: 42px;
     color: #fff;
-    margin-right: 20px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .secondary-btn {
@@ -110,6 +111,11 @@ nav ul a {
     border-radius: 42px;
     color: #fff;
     margin-right: 20px;
+    cursor: pointer;
+}
+
+.hero-img img {
+    width: 100%;
 }
 
 .badge {
@@ -140,4 +146,52 @@ nav ul a {
 .custom-badge {
     font-weight: 100;
     font-size: 14px;
+}
+
+.primary-bg {
+    background-color: #000000;
+}
+
+.habit-sec {
+    padding: 100px 250px;
+}
+
+.habit {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.habit-img-content {
+    border-radius: 50%;
+}
+
+.habit-heading {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.habit-description {
+    font-size: 16px;
+    color: #fff;
+    opacity: .5;
+    text-align: center;
+    margin-top: -25px;
+    line-height: 150%;
+}
+
+.habit-content-heading {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.habit-content-description {
+    font-size: 16px;
+    color: #fff;
+    opacity: .5;
+    text-align: center;
 }
