@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.mea {
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to right, #171717, #1F1F1F);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 250px; 
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px gray;
+    height: 38px;
+    width: 450px;
+    padding: 0px 0px 0px 2px;
+    
+}
+
+nav ul a {
+    text-decoration: none;   
+    color: #fff;
+}
+
+.home {
+    background-color: #E6533C;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+.nav-header {
+    font-size: 2rem;
+    font-style: italic;
+    color: #E6533C;
+}
+
+.hero {
+    display: flex;
+    margin: 0px 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-heading {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 120%;
+    color: #fff;
+}
+
+.hero-custom {
+    font-family: "Mea Culpa", cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 8rem;
+}
+
+.hero-description {
+    font-size: 16px;
+    color: #fff;
+    opacity: .5;
+    margin-top: -55px;
+}
+
+.primary-btn {
+    font-size: 20px;
+    background-color: #E6533C;
+    padding: 16px 46px;
+    border: none;
+    border-radius: 42px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.secondary-btn {
+    font-size: 20px;
+    background-color: #1C1C1C;
+    padding: 16px 46px;
+    border: 1px solid #fff;
+    border-radius: 42px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.badge {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.top-badge {
+    top: 300px;
+    right: 220px;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 20px;
+}
+
+.bottom-badge {
+    top: 450px;
+    left: 1260px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 20px;
+}
+
+.custom-badge {
+    font-weight: 100;
+    font-size: 14px;
+}
