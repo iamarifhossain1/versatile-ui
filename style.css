@@ -375,3 +375,120 @@ nav ul a {
 .calculate {
     margin-top: 30px;
 }
+
+.team-sec {
+    background-color: #000000;
+    padding-top: 50px;
+    height: 950px;
+}
+
+.team-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.team-description {
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    opacity: .5;
+    margin-top: -20px;
+    line-height: 150%;
+}
+
+.team-container {
+    background-color: #1C1C1C;
+    margin: 50px 420px;
+    width: 950px;
+    border-radius: 15px;
+    padding: 10px;  
+}
+
+.trainer-container {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+
+.trainer-container img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.trainer-img {
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.trainer-up {
+    margin-top: 10px;
+}
+
+.trainer-bottom {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1C1C1C;
+    margin-top: -40px;
+}
+
+.footer-container {
+    display: flex;
+    padding: 65px;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 0px 300px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer ul {
+    list-style: none;
+    line-height: 250%;
+}
+
+.footer ul a {
+    text-decoration: none;
+    color: #fff;
+    opacity: .5;
+    font-size: 1rem;
+}
+
+.footer-header {
+    font-size: 3rem;
+}
+
+.footer-description {
+    color: #fff;
+    opacity: .5;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+.started {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 34px;
+}
+
+hr {
+    border: .5px solid #fff;
+    opacity: .5;
+    margin-bottom: 100px;
+    width: 54%;
+    margin-left: 18%;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+    opacity: .5;
+    padding-bottom: 20px;
+}
